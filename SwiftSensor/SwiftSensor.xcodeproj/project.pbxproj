@@ -14,6 +14,7 @@
 		11744D091C5F6A9A00214312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11744D071C5F6A9A00214312 /* LaunchScreen.storyboard */; };
 		11744D141C5F6A9A00214312 /* SwiftSensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11744D131C5F6A9A00214312 /* SwiftSensorTests.swift */; };
 		11744D1F1C5F6A9A00214312 /* SwiftSensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11744D1E1C5F6A9A00214312 /* SwiftSensorUITests.swift */; };
+		11744D2D1C5F6B3000214312 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11744D2C1C5F6B3000214312 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		11744D1A1C5F6A9A00214312 /* SwiftSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11744D1E1C5F6A9A00214312 /* SwiftSensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSensorUITests.swift; sourceTree = "<group>"; };
 		11744D201C5F6A9A00214312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11744D2C1C5F6B3000214312 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11744D2D1C5F6B3000214312 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		11744CF21C5F6A9A00214312 = {
 			isa = PBXGroup;
 			children = (
+				11744D2C1C5F6B3000214312 /* CoreMotion.framework */,
 				11744CFD1C5F6A9A00214312 /* SwiftSensor */,
 				11744D121C5F6A9A00214312 /* SwiftSensorTests */,
 				11744D1D1C5F6A9A00214312 /* SwiftSensorUITests */,
