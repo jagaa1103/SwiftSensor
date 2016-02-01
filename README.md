@@ -1,3 +1,3 @@
 # SwiftSensor
 
-Simple Accelerometer with Swift
+Simple Accelerometer and Gyroscope with Swift
